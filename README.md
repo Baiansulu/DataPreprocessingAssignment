@@ -5,36 +5,24 @@ This repository contains a complete data preprocessing and analysis project usin
 
 ---
 
-## 📁 Files Included
+## Files Included
+- `world_happiness_analysis.ipynb` – Full notebook
+- `world_happiness_analysis.py` – Python script
+- `2020.csv` to `2024.csv` – Happiness datasets
+- `happiness_histogram.png` – Histogram visualization
+- `report.pdf` – Summary of preprocessing and results
 
-- `World_Happiness_Report.docx` – Full Word report
-- `World_Happiness_Report.pdf` – Printable PDF report
-- `world_happiness_analysis.py` or `.ipynb` – Code file 
+## Data Preprocessing Steps
+- **Data Cleaning**: Removed duplicates and missing values
+- **Data Integration**: Combined 5 years into one dataset
+- **Data Reduction**: Selected important columns
+- **Data Transformation**: Normalized numeric features
+- **Data Discretization**: Categorized Happiness Score into 3 levels
 
----
-
-## 📊 Dataset Description
-
-The dataset includes the following features:
-- **Happiness Score**
-- **GDP per Capita**
-- **Social Support**
-- **Healthy Life Expectancy**
-- **Freedom**
-- **Generosity**
-- **Perception of Corruption**
-- **Country** and **Year**
-
----
-
-## Techniques Applied
-
--  Data Cleaning
--  Normalization (MinMax Scaling)
--  PCA (Principal Component Analysis)
--  Linear Regression (Modeling happiness score)
--  K-Means Clustering
--  Histogram & Correlation Heatmap
+## Bonus Analysis
+- Built a Linear Regression model to predict Happiness Score
+- Evaluated with R² Score and MSE
+- Visualized score distribution
 
 ---
 
